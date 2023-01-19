@@ -1,0 +1,14 @@
+import random
+
+def nomes_casas_hp():
+
+    nome = input("Qual é o teu nome? ")
+    print("Ok, vou escolher a tua casa! ")
+
+    casas = ["Gryffindor", "Slytherin", "Ravenclaw", "Hufflepuff"]
+    r = random.choice(casas)
+
+    print(nome, " ,a tua casa é: ",r )
+
+while True:
+    nomes_casas_hp()
