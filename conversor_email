@@ -1,0 +1,10 @@
+def serv():
+    email = input("Vamos converter o teu email para GMAIL, qual é o teu email? ")
+    arroba = email.find("@")
+    emailuser = email[:arroba]
+    emailserv = email[arroba+1:]
+    emailservG = emailserv.replace(emailserv, "gmail.com")
+    print(emailuser+'@'+emailservG)
+
+while True:
+    serv()
